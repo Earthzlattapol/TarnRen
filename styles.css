@@ -1,0 +1,121 @@
+/* title */
+#title{
+  background: #fff;
+  color: #067563;
+}
+.title-img{
+  width: 150px;
+  height: 120px;
+  transform: rotate(15deg);
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.container-fluid {
+  padding: 0 0 12% 0;
+}
+
+
+.row{
+  padding: 1% 5% 10%;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Cabin', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+h2,h3{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+
+}
+
+/* navbar */
+
+
+.navbar-container {
+  margin-bottom: 5%;
+  background-color: #067563;
+  font-family: "Cabin",sans-serif;
+  padding: 0 3.5% 0;
+}
+
+/* testimonials */
+.testimonials-img{
+  width: 70%;
+  height: 70%;
+  border-radius: 20%;
+  border: 10px solid;
+  border-color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.carousel-inner{
+  background-color: #00B09B;
+  text-align: center;
+
+
+}
+
+/* product */
+#products{
+  text-align:center;
+  padding: 3% 0;
+}
+
+.product-head{
+  background-color: #B06C09;
+  color: #fff;
+
+}
+
+
+
+.card{
+  color: #FCA119;  
+
+}
+
+.row{
+  padding-bottom: 2px;
+
+}
+
+/* footer */
+#footer{
+  background-color: #067563;
+  padding: 1% 8%;
+  text-align: center;
+}
+
+.social-icon{
+  padding: 3% 1%;
+
+}
+
+.tree1{
+  position: relative;
+  top: 55px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+
+
+}
